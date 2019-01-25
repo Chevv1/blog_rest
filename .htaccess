@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !(index\.php)
+RewriteRule ^(.*)$ /api/index.php/$1

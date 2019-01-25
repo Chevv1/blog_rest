@@ -1,0 +1,12 @@
+{
+    "name": "admin/restapi",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        },
+        "files": [
+            "config.php"
+        ]
+    }
+}
